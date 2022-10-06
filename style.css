@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 50px 31px 50px 50px;
+}
+
+ul li{
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 0px 15px 20px -4px;
+    width: calc(100%/3 - 15px);
+    vertical-align: top;
+    overflow: hidden;
+    padding: 10px;
+}
+
+ul li:hover{
+    box-shadow: 0 0 5px black;
+}
+
